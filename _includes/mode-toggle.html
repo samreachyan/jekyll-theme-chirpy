@@ -41,6 +41,7 @@
         }
 
         self.updateMermaid();
+        self.updateUtterances();
       });
 
     } /* constructor() */
@@ -99,6 +100,21 @@
       }
     }
 
+    updateUtterances() {
+      const utterances = document.querySelector("iframe.utterances-frame");
+      if (utterances === null) {
+        return;
+      }
+
+      const theme = (this.modeStatus === ModeToggle.DARK_MODE ? "github-dark" : "github-light");
+      const message = {
+        type: "set-theme",
+        theme: theme
+      };
+
+      utterances.contentWindow.postMessage(message, "https://utteranc.es");
+    }
+
   } /* ModeToggle */
 
   const toggle = new ModeToggle();
@@ -129,6 +145,7 @@
     }
 
     toggle.updateMermaid();
+    toggle.updateUtterances();
 
   } /* flipMode() */
 
