@@ -1,0 +1,91 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: អត្ថបទ
+  category: កាតាឡុក
+  tag: ស្លាក
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: ទំព័រដើម
+  categories: កាតាឡុក
+  tags: ស្លាក
+  archives: រក្សាទុកជាឯកសារ 
+  about: អំពីយើង
+
+# the text displayed in the search bar & search results
+search:
+  hint: ស្វែងរក
+  cancel: បោះបង់
+  no_results: មិនមានលទ្ធផល
+
+panel:
+  lastmod: ការកែប្រែចុងក្រោយ
+  trending_tags: ស្លាកពេញនិយម
+  toc: មាតិកា
+
+#  The liquid date format › http://strftime.net/
+date_format:
+  tooltip: "%a, %e %b, %Y, %l:%M %p"
+  post:
+    long: "%e %b, %Y"
+    short: "%e %b"
+    archive_month: "%b"
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: អត្ថបទនេះត្រូវបានផ្តល់អាជ្ញាប័ណ្ណអ្នកនិពន្ធក្រោម :LICENSE_NAME ។
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: រក្សាសិទ្ធិគ្រប់យ៉ាង
+  love: ដោយក្តីស្រលាញ់
+  verbose: >-
+    លើកលែងតែកន្លែងដែលបានកត់សម្គាល់ផ្សេងទៀត ការបង្ហោះប្លុកនៅលើគេហទំព័រនេះត្រូវបានផ្តល់អាជ្ញាប័ណ្ណ
+    ក្រោមអាជ្ញាប័ណ្ណ Creative Commons Attribution 4.0 International (CC BY 4.0) ដោយអ្នកនិពន្ធ។
+
+meta: Powered by :PLATFORM with :THEME theme.
+
+not_found:
+  statment: សូមអភ័យទោស តំណភ្ជាប់នេះមិនត្រឹមត្រូវ។
+  hint_template: :HEAD_BAK សូមសាកល្បងម្តងទៀត ឬស្វែងរកម្តងទៀតនៅក្នុង :ARCHIVES_PAGE.
+  head_back: ត្រឡប់ទៅទំព័រដើម
+  archives_page: ទំព័ររក្សាទុកជាឯកសារ
+
+# ----- Posts related labels -----
+
+post:
+  published: 'on'
+  updated: បានកែប្រែ
+  timeago:
+    day: ថ្ងៃមុន
+    hour: ម៉ោងមុន
+    minute: នាទីមុន
+    just_now: ថ្មីៗ
+  words: ពាក្យ
+  pageview_measure: អ្នកមើល
+  read_time:
+    unit: នាទី
+    prompt: អាន
+  relate_posts: អត្ថបទទាក់ទង
+  share: ចែករំលែកបន្ត
+  button:
+    next: បន្ទាប់
+    previous: ត្រលប់ក្រោយ
+    copy_code:
+      succeed: ចម្លងជោគជ័យ
+    share_link:
+      title: ចម្លងតំណភ្ជាប់
+      succeed: ចម្លងតំណភ្ជាប់បានជោគជ័យ
+  # pinned prompt of posts list on homepage
+  pin_prompt: ខ្ទាស់បង្ហាញ
+
+# categories page
+categories:
+  category_measure: កាតាឡុក
+  post_measure: អត្ថបទ
