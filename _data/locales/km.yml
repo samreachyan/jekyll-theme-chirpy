@@ -1,6 +1,11 @@
 # The layout text of site
 
 # ----- Commons label -----
+lang_name: 'ខ្មែរ'
+
+author:
+  name: សមរាជ 
+  bio: ប្រឹងយកចិត្តទុកដាក់លើគោលដៅ! អ្នកសរសេរលំហាត់ sakcode.net
 
 layout:
   post: អត្ថបទ
